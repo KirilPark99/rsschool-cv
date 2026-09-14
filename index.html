@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV of Kiril Park, beginner frontend developer from Dnipro, Ukraine.">
+  <title>Kiril Park | CV</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <div class="avatar-frame">
+        <img class="avatar" src="./avatar.png" alt="Neutral male avatar of Kiril Park">
+      </div>
 
+      <div class="hero-copy">
+        <p class="eyebrow">Curriculum Vitae</p>
+        <h1>Kiril Park</h1>
+        <p class="role">Beginner Frontend Developer</p>
+        <p class="intro">
+          I am interested in web development, learning new technologies,
+          and improving my programming skills through practice and projects.
+        </p>
+      </div>
+    </header>
+
+    <nav class="navigation" aria-label="CV navigation">
+      <ul>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#english">English</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="content-grid">
+        <aside class="sidebar">
+          <section id="contacts" class="section-block">
+            <h2>Contacts</h2>
+            <ul class="info-list">
+              <li>
+                <span class="label">Location</span>
+                <span>Dnipro, Ukraine</span>
+              </li>
+              <li>
+                <span class="label">Email</span>
+                <a href="mailto:pkv99@proton.me">pkv99@proton.me</a>
+              </li>
+              <li>
+                <span class="label">GitHub</span>
+                <a href="https://github.com/KirilPark99">KirilPark99</a>
+              </li>
+            </ul>
+          </section>
+
+          <section id="skills" class="section-block">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python — basic</li>
+              <li>React — basic</li>
+              <li>Git; GitHub</li>
+              <li>Linux</li>
+              <li>VS Code / VSCodium</li>
+            </ul>
+          </section>
+        </aside>
+
+        <div class="main-column">
+          <section id="about" class="section-block">
+            <h2>About Me</h2>
+            <p>
+              I am a beginner frontend developer focused on building a solid
+              foundation in web technologies. I enjoy learning by creating
+              small projects and working with modern development tools.
+            </p>
+          </section>
+
+          <section id="experience" class="section-block">
+            <h2>Experience</h2>
+            <article class="timeline-item">
+              <div class="timeline-heading">
+                <h3>RSSchool CV Project</h3>
+                <span>Study project</span>
+              </div>
+              <p>
+                Created and published a personal CV using Markdown, HTML, CSS,
+                Git, GitHub, and GitHub Pages.
+              </p>
+              <a class="text-link" href="https://github.com/KirilPark99/rsschool-cv">
+                View source code
+              </a>
+            </article>
+          </section>
+
+          <section id="code" class="section-block">
+            <h2>Code Example</h2>
+            <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+          </section>
+
+          <section id="education" class="section-block">
+            <h2>Education</h2>
+            <div class="education-list">
+              <article>
+                <h3>Oles Honchar Dnipro National University</h3>
+                <p>DNU</p>
+              </article>
+              <article>
+                <h3>RS School</h3>
+                <p>JavaScript / Front-end Course</p>
+              </article>
+              <article>
+                <h3>Self-education</h3>
+                <p>Web development and programming fundamentals</p>
+              </article>
+            </div>
+          </section>
+
+          <section id="english" class="section-block">
+            <h2>English</h2>
+            <p>
+              <strong>B2</strong> I practice English by reading
+              documentation and studying programming materials.
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/KirilPark99">GitHub</a>
+      <span>2026</span>
+      <a class="rs-link" href="https://rs.school/courses/javascript-preschool-ru" aria-label="RS School course">
+        <img
+          src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/fullstack-engineering/tasks/cv/assets/rs-school-logo.svg"
+          alt="RS School logo"
+        >
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
